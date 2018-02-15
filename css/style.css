@@ -1,0 +1,123 @@
+body{
+	background: url('../images/bg.png') no-repeat;
+	background-size: 700px 600px;
+}
+
+.navbar {
+    width: 100%;
+}
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url(../fonts/Montserrat-Bold.ttf);
+}
+@font-face {
+    font-family: Montserrat-Medium;
+    src: url(../fonts/Montserrat-Medium.ttf);
+}
+.logo img {
+    height: 60px;
+    margin: 10px 0px 5px 10px;
+}
+
+.vdo{
+	height: 500px;
+}
+.vdo_title h1{
+    text-align: center;
+    font-family: Montserrat-Bold;
+    font-size: 24px;
+    color: #136886;
+}
+.vdo_title p{
+	text-align: center;
+	font-family: Montserrat-Medium;
+	font-weight: 600;
+	color: #1D2528;
+}
+main#main {
+    box-shadow: -3px 3px 22px #5ad2ff;
+}
+.signupbtn {
+    padding: 8px 48px;
+    font-size: 17px;
+    background: #00D1B2;
+    border: #11f3d5;
+    border-radius: 50px;
+    margin-bottom: 30px;
+    font-weight: bold;
+
+}
+.signupbtn:hover{
+	background: #0cdec2;
+}
+
+.rightBoxActive{
+	background: #FDD907 !important;
+}
+.imgCircle{
+	height: 50px;
+	width: 50px;
+}
+.imgCircle img{
+	height: 100%;
+	width: 100%;
+}
+.icon {
+    color: #fff;
+    font-size: 9px;
+    text-align: right;
+}
+.text {
+    margin-top: 35px;
+}
+.clear_padding{
+	padding-left: 0px !important;
+}
+.lesson_no {
+    color: #136886;
+    font-family: Montserrat-Medium;
+    line-height: 2px;
+}
+.lesson_name {
+    font-weight: bold;
+    color: #136886;
+    font-family: Montserrat-Bold;
+    margin-top: -5px;
+}
+.replay{
+    color: #136886;
+    font-family: Montserrat-Medium;
+    margin-top: -5px;
+    line-height: 2px;
+
+}
+i.fa.fa-dot-circle-o {
+    color: #ff3d3dc7;
+}
+i.fa.fa-play {
+    background: #f18181;
+    padding: 7px;
+    border-radius: 25px;
+}
+.rightBox {
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-radius: 15px;
+    box-shadow: 3px 6px #f0f0f0;
+    -webkit-box-shadow: 3px 6px #f0f0f0;
+    -moz-box-shadow: 3px 6px #f0f0f0;
+    box-shadow: 6px 6px 19px #ccc;
+    background: #fff;
+}
+
+@media only screen and (max-width: 576px) {
+    body{
+            background-size: 1397px 100%;
+        background-position: center;
+    }
+    .rightBox.rightBoxDisable {
+        font-family: Montserrat-Medium;
+        background-color: #cccccce3;
+    }
+    .mobile{    height: 80px}
+}

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A simple HTML5 media player with custom controls and WebVTT captions.">
+    <meta name="author" content="Sam Potts">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Company Title</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet"/>
+    
+    <!--    font-awesome css-->
+    <link rel="stylesheet" href="css/font-awesome.min.css"/>
+    
+    <!--    custom css-->
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/media.css"/>
+    
+    <!--    animate css-->
+    <link rel="stylesheet" href="css/animate.css"/>
+    
+    <!--    jquery UI css-->
+    <link rel="stylesheet" href="css/jquery-ui.min.css"/>
+    <link rel="stylesheet" href="css/jquery-ui.theme.min.css"/>
+    
+    <!--    slick css-->
+    <link rel="stylesheet" href="css/slick.css"/>
+    <link rel="stylesheet" href="css/slick-theme.css"/>
+        <!-- Styles -->
+    <link rel="stylesheet" href="css/plyr.css">
+
+    <!-- Docs styles -->
+    <link rel="stylesheet" href="css/demo.css">
+    <link rel="preload" as="font" crossorigin type="font/woff2" href="https://cdn.plyr.io/static/fonts/avenir-medium.woff2">
+    <link rel="preload" as="font" crossorigin type="font/woff2" href="https://cdn.plyr.io/static/fonts/avenir-bold.woff2">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-4 col-sm-4 col-md-3 col-lg-3">
+                <div class="logo">
+                    <img src="images/logo.png" class="img-responsive" alt="Company Logo">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2 col-lg-offset-2">
+                <main role="main" id="main">
+        
+                    <section>
+                        <video poster="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg?v1" controls crossorigin>
+                            <!-- Video files -->
+                            <source src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.mp4" type="video/mp4">
+                            <source src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.webm" type="video/webm">
+
+                            <!-- Text track file -->
+                            <track kind="captions" label="English" srclang="en" src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.en.vtt"
+                                default>
+
+                            <!-- Fallback for browsers that don't support the <video> element -->
+                            <a href="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.mp4" download>Download</a>
+                        </video>
+
+                    </section>
+                </main>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2 col-lg-offset-2">
+                <div class="vdo_title">
+                    <h1> <i class="fa fa-dot-circle-o"></i> Aula 4 - Tirar mil é possível. Irei te mostrar o caminho!</h1>
+                    <p>Na Oficina de Redação você aprenderá técnicas para produzir uma redação nota 1000 no ENEM
+                    e, assim, ser aprovado no vestibular. Um programa de estudos personalizado que vai te ensinar
+                    de maneira clara e objetiva o que você precisa fazer</p>
+                </div>
+                <center><a href="" class="btn btn-primary signupbtn">ASSINAR AGORA!</a></center>
+            </div>
+        </div>
+    </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    <!--  Main jquery Starts-->
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!--    Main jquery Ends-->
+    
+    <!--    Boosstrap js stat-->
+    <script src="js/bootstrap.min.js"></script>
+    <!--    Bootstarp js Ends--> 
+    
+    <!--    slick slider js start-->
+    <script src="js/slick.js"></script>
+    <!--    slick slider js ends-->
+    
+    <!--    jquery UI starts-->
+    <script src="js/jquery-ui.min.js"></script>
+    <!--    jquery UI ends-->
+    
+    <!--    wow js starts-->
+    <script src="js/wow.min.js"></script>
+    <!--    wow js ends-->
+     <!-- Plyr core script -->
+    <script src="js/plyr.js"></script>
+
+    <!-- Docs script -->
+    <script src="js/demo.js"></script>
+
+    <!-- Rangetouch to fix <input type="range"> on touch devices (see https://rangetouch.com) -->
+    <script src="https://cdn.rangetouch.com/1.0.1/rangetouch.js" async></script>
+
+    <!-- Sharing libary (https://shr.one) -->
+    <script src="https://cdn.shr.one/1.0.1/shr.js"></script>
+    <script>
+        if (window.shr) { window.shr.setup({ count: { classname: 'btn__count' } }); }
+    </script>
+    
+  </body>
+</html>

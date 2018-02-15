@@ -1,0 +1,142 @@
+@media(max-width:320px){
+	.logo img{
+	    margin: 10px 0px 5px 10px;
+	}
+	.vdo_title p{
+		text-align: center;
+		font-family: Montserrat-Medium;
+		font-weight: 600;
+		color: #1D2528;
+	}
+	.imgCircle img{
+		margin:25px 0px 0px 15px;
+	}
+	.rightBox {
+	    margin: 15px 10px 5px 10px;
+	    height: 115px;
+	}
+	.icon {
+    	margin-left: 0px !important;
+	}
+	.text{
+		margin-left: 30px !important;
+	}
+}
+
+@media(max-width:450px){
+	.logo img{
+	    margin: 10px 0px 5px 10px;
+	}
+	.vdo_title p{
+		text-align: center;
+		font-family: Montserrat-Medium;
+		font-weight: 600;
+		color: #1D2528;
+	}
+	.imgCircle img{
+		margin:25px 0px 0px 15px;
+	}
+	.rightBox {
+	    margin: 15px 10px 5px 10px;
+	    height: 115px;
+	}
+	.icon {
+    	margin-left: 60px !important;
+	}
+	.lesson_no{
+		font-size: 10px
+	}
+	.lesson_name{
+		font-size: 10px
+	}
+	.replay{
+		font-size: 10px
+	}
+	.text{
+		margin-left: 20px !important;
+	}
+}
+@media(max-width:720px){
+	.logo img{
+	    height: 45px;
+	    margin: 10px 0px 5px 10px;
+	}
+	.vdo_title p{
+		text-align: center;
+		font-family: Montserrat-Medium;
+		font-weight: 600;
+		color: #1D2528;
+	}
+	.rightBox {
+	    margin: 15px 10px 5px 10px;
+	    height: 105px;
+	}
+	.icon {
+    	margin-left: 100px;
+	}
+	.imgCircle img{
+		margin:25px 0px 0px 15px;
+	}
+}
+
+@media(min-width:720px){
+	.vdo_title p{
+		padding: 0px 160px;
+	}
+	.rightBox {
+	    margin: 21px 25px 5px 0px;
+	    height: 105px;
+	    border: 1px solid #ccc;
+	}
+	.icon {
+    	margin-left: 120px;
+	}
+	.imgCircle img{
+		margin:25px 0px 0px 15px;
+	}
+	.text{
+		margin-left: -30px;
+	}
+	.rightBox.rightBoxDisable {
+	    /*margin-top: -110px;*/
+	    position: absolute;
+	    color: #8a8080;
+	    font-family: Montserrat-Medium;
+	    background-color: #cccccce3;
+	    z-index: 2;
+	    width: 94%;
+	    border: 1px solid #ccc;
+	}
+	.rightBoxDisable h4, h6 {
+    	text-align: center;
+	}
+	.rightBox.rightBoxDisable h4 {
+    	margin-top: 30px;
+	}
+}
+
+
+
+
+
+
+
+
+/*extra small devices {ar vitor code ligta hoi} */
+
+@media (max-width:767px){
+
+  }
+
+
+/*small devices */
+@media (min-width:768px) and (max-width:991px){
+    
+}
+/*medium devices */
+@media (min-width:992px) and (max-width:1199px){
+   
+}
+/*large devices */
+@media (min-width:1200px) {
+}

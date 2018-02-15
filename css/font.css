@@ -1,0 +1,20 @@
+@font-face {
+   font-family: li;
+   src: url('fonts/Montserrat-Light.ttf');
+}
+@font-face {
+   font-family:md;
+   src: url('fonts/Montserrat-Medium.ttf');
+}
+@font-face {
+   font-family:eb;
+   src: url('fonts/Montserrat-ExtraBold.ttf');
+}
+@font-face {
+   font-family:bo;
+   src: url('fonts/Montserrat-Bold.ttf');
+}
+@font-face {
+   font-family:bl;
+   src: url('fonts/Montserrat-Black.ttf');
+}

@@ -1,0 +1,119 @@
+
+.btn--large {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-size: 1rem
+}
+
+.btn--primary,
+.btn__bar li.active .btn {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#3498db), to(#258cd1));
+    background-image: linear-gradient(#3498db, #258cd1);
+    background-color: #3498db;
+    border-color: #217dbb;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .15);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .15);
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+    color: #fff
+}
+
+.btn--primary:focus,
+.btn--primary:hover {
+    color: #fff;
+    border-color: #196090
+}
+
+.btn--youtube .icon {
+    color: #cc181e
+}
+
+.btn--vimeo .icon {
+    color: #19b7ed
+}
+
+.btn--twitter .icon {
+    color: #4baaf4
+}
+
+.btn__count {
+    position: relative;
+    margin-left: 10px;
+    padding: 10px 15px;
+    background: #fff;
+    border: 1px solid #cbd0d3
+}
+
+.btn__count::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 8px;
+    height: 8px;
+    left: 1px;
+    top: 50%;
+    margin-top: -4px;
+    background: inherit;
+    border: inherit;
+    border-width: 1px 0 0 1px;
+    -webkit-transform: rotate(-45deg) translate(-50%, -50%);
+    transform: rotate(-45deg) translate(-50%, -50%)
+}
+
+.error body,
+html.error {
+    height: 100%
+}
+
+.error body {
+    width: 100%;
+    display: table;
+    table-layout: fixed
+}
+
+.error main {
+    display: table-cell;
+    width: 100%;
+    vertical-align: middle
+}
+
+video {
+    max-width: 100%;
+    vertical-align: middle
+}
+
+.plyr {
+    margin: 0 auto;
+    border-radius: 6px
+}
+
+.plyr--audio {
+    max-width: 520px
+}
+
+.plyr__video-wrapper::after {
+    content: "";
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: inherit
+}
+
+.plyr__cite {
+    display: none;
+    margin-top: 20px
+}
+
+.plyr__cite .icon {
+    margin-right: 5px
+}
+
+.plyr--audio~ul .plyr__cite--audio,
+.plyr--video:not(.plyr--youtube):not(.plyr--vimeo)~ul .plyr__cite--video,
+.plyr--vimeo~ul .plyr__cite--vimeo,
+.plyr--youtube~ul .plyr__cite--youtube {
+    display: block
+}

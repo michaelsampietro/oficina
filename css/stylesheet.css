@@ -1,0 +1,490 @@
+/**
+ * CSS COM ALGUMAS CLASSES USADAS EM TODO O PROJETO
+ */
+
+/* Deixa uma seção com a mesma altura da tela */
+
+.full-page {
+    height: auto;
+    min-height: 100vh;
+}
+
+.full-page-middle-align {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    min-height: calc(100% - (.5rem * 2));
+}
+
+.container-outer { overflow: scroll; width: 100%; height: auto; }
+.container-inner { width: 10000px; }
+
+.right-chevron {
+    -webkit-clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 15% 50%, 0% 0%);
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 15% 50%, 0% 0%);
+    background-color: white;
+}
+
+
+/**
+ * CÓDIGO DA SEÇÃO SUPERIOR DA PÁGINA
+ */
+
+#background-azul-topo {
+    background-image: url('../images/index/desktop/bg_topo.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: -8px;
+}
+
+@media (max-width: 575px) {
+    #background-azul-topo {
+        background-image: url('../images/index/mobile/bg_topo.svg');
+        background-size: cover;
+    }
+}
+
+.container-topo {
+    width: 95%;
+    margin: 0 auto;
+}
+
+input, input:placeholder, input:placeholder-show {
+    color: rgb(100, 180, 214);
+}
+
+.submit{
+    border-radius: 30px;
+    border: 0px;
+    box-shadow: 0px 0px 15px 10px #b2e5f9;
+    background: #00d1b1;
+    color: #fff;
+    font-size: 1rem;
+    line-height: 1rem;
+    font-weight: bold;
+    padding: .375rem 1.75rem;
+    float: right;
+    height: 2.5rem;
+    cursor: pointer;
+}
+
+
+/* Navbar */
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(20, 89 , 126); /* Azul escuro */
+}
+
+.bg-transparent {
+    background-color: transparent;
+}
+
+
+
+
+/* 
+
+*/
+
+
+#thumb-1 {
+    background-image: url("img/thumb-1.png");
+    background-size: contain;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+}
+
+#thumb-2 {
+    background-image: url("img/thumb-2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+    height: 200px;
+}
+
+#thumb-3 {
+    background-image: url("img/thumb-3.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+    height: 200px;
+}
+
+.right-chevron-bg {
+    display: block;
+    background-image: url(img/box-2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: auto;
+    height: 430px;
+    transition: transform .1s;
+    /* -webkit-clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 14% 49%, 0% 0%);
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 14% 49%, 0% 0%);
+    box-shadow: 5px 10px #888888;
+    background-color: white;
+    position: relative; */
+}
+
+.right-chevron-bg:hover, .right-chevron-bg:focus  {
+    transform: scale(1.05);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* OLD CSS */
+ main{
+    background-image: url('img/bg-2.png');
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding:0px 10px;
+    margin-bottom: -20px;
+}
+
+.bg-professora {
+    background-image: url('img/bg-professora.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 576px) {
+    .bg-professora {
+        background-image: url('img/send-mgs.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
+
+.foto-professora {
+    max-width: 90px;
+    position: absolute;
+    top: -31%;
+    left: 0%;
+}
+
+@media screen and (min-width: 576px) {
+    .foto-professora {
+        max-width: 150px;
+        position: absolute;
+        top: -8%;
+        left: -5%;
+    }
+}
+
+
+/* SEÇÃO DE DEPOIMENTOS */
+
+#depoimento-1 {
+    background-image: url("../images/index/mobile/depoimento_1.svg");
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.texto-depoimento { padding: 0 10% 0% 1%; }
+
+.texto-cinza-claro { color: rgb(97,97,97);}
+
+.texto-azul-claro { color: rgb(51,163,208); }
+
+.autor-depoimento {float: left; padding-left: 1%;}
+
+/* #depoimento-desktop-1 {
+    background-image: url("../images/index/desktop/balao_1.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+} */
+
+
+/* FIM SEÇÃO DE DEPOIMENTOS */
+
+ .eb{
+    font-family: eb;
+}
+ .md{
+    font-family: md;
+}
+ .title{
+    /* margin-top: 140px; */
+    margin-top: 30%;
+}
+ /* nav{
+    float: right;
+} */
+ .form-control{
+    border-radius: 20px;
+     background: #b2e5f9;
+}
+ button{
+    background: transparent;
+    border: 0px;
+}
+ /* .thumb img{
+    width: 60%;
+     height: 150px;
+} */
+ .thumb-group {
+     background-size: 100% 100%;
+     width: 33.33%;
+     float: left;
+}
+ .group-one{
+     background-image: url(img/box-1.png);
+     margin-right: 7px;
+}
+ .group-two{
+     background-image: url(img/box-2.png);
+     margin-left: -40px;
+     height: 426px;
+}
+ .group-two:hover,.group-one:hover{
+     cursor: pointer;
+     
+}
+ .image-set{
+    width:100%
+}
+ .chat-top{
+     width: 80px;
+     position: absolute;
+     margin-left: -40px;
+}
+ .image-chat-top{
+    height:270px;
+}
+ span.chat-top-left {
+     margin-left: 40px;
+     font-weight: bold;
+     float: left;
+}
+ span.chat-top-right {
+     float: right;
+     margin-right: 30px;
+     font-weight: bold;
+}
+ span.text-sms {
+     margin-top: -95px;
+     z-index: 10;
+     padding: 0px 50px;
+     position: absolute;
+     line-height: 15px;
+     text-align: justify;
+     display: block;
+     font-family: md;
+}
+span.text-sms.text-top{
+     margin-top: -235px;
+}
+ img.chat-person {
+     position: absolute;
+     margin-left: -75px;
+     height: 70px;
+     margin-top: -15px;
+}
+ .image-chat-sender {
+     height: 120px;
+}
+ img.chat-corner {
+     position: absolute;
+     margin-left: -23px;
+     margin-top: -6px;
+     width: 30px;
+}
+ .nav-item,.bo{
+    font-family: bo;
+}
+ .bl{
+    font-family: bl;
+}
+ .first-section{
+    color:#094960
+}
+ .slide-image{
+    width:80%;
+    margin-left:40px
+}
+ logo img{
+    height: 50px;
+     margin: 10px 10px 0px;
+}
+ .clr{
+    clear:both
+}
+ .row-thumb{
+     width: 90%;
+     margin: 0 auto;
+    height:350px
+}
+ .thumb-inner{
+    width: 80%;
+     padding: 0px 10px;
+    margin: 0 auto;
+     color:#286884
+}
+ .thumb-inner h4{
+    font-family:bo
+}
+ .thumb-inner p{
+    font-family:md
+}
+ .after-slider{
+     color: #fff;
+     margin-top: 50px;
+}
+ footer {
+     background: #6ad6ff;
+     color: #fff;
+     font-family: md;
+     font-size: 12px;
+     padding: 10px;
+     border-top: 5px solid #fff;
+}
+ img.footer-logo {
+     margin: 15px 5px;
+}
+ .row.footer-button {
+     height: 100px;
+     padding: 20px;
+}
+ .submit2{
+     border-radius: 15px;
+     border: 0px;
+     background: #00d1b1;
+     color: #fff;
+     font-size: 12px;
+     font-weight: bold;
+     padding: 5px 10px;
+     float: right;
+}
+ img.chat-person.chat-standing {
+     height: 120px;
+}
+ span.text-sms.chatting {
+     font-size: 12px;
+     padding: 0px 70px 10px 50px;
+}
+ img.rec-chat-person {
+     position: absolute;
+     height: 75px;
+     right: 0;
+     top: 0;
+     margin-right: -50px;
+     margin-top: -25px;
+}
+ span.text-sms.mob-chatting {
+     font-size: 12px;
+     padding: 0px 30px;
+     margin-top: -145px;
+}
+ .mob-chat-sender {
+     height: 160px;
+}
+ .sender-quote{
+     position: absolute;
+     height: 50px;
+     right: 0;
+     margin-top: -40px;
+     margin-right: 20px;
+}
+ .mob-chat-person{
+     font-family: bl;
+     color: #3cacd6;
+     margin-top: 10px;
+     display: block;
+}
+ .mob-chat-person.right{
+     float: right;
+}
+ .after-chat-top{
+     color:#286884;
+}
+ .sender-quote.right{
+     left: 0;
+     margin-top: -50px;
+     margin-left: 10px;
+}
+ @media only screen and (max-width: 576px) {
+     .slide-image{
+        height:200px
+    }
+     .title{
+        margin-top:0px;
+         padding:0px 10px
+    }
+     header section{
+        padding: 0px 10px;
+    }
+     header {
+         background-size: 800px 100%;
+         height: 725px;
+         background-position: center;
+    }
+     main{
+         background-size: 1500px 85%;
+         background-position: right bottom;
+    }
+     .thumb-group {
+        width: 100%;
+    }
+     .image-chat-top {
+         height: 535px;
+    }
+     .chat-top {
+         width: 60px;
+         margin-left: -6px;
+    }
+     .text-top{
+         margin-top: -455px !important;
+    }
+     .chat-top-left{
+         position: absolute;
+         margin-top: 25px;
+         margin-left: 75px !important;
+    }
+     .chat-top-right{
+         position: absolute;
+         margin-top: 50px;
+         margin-left: 75px !important;
+    }
+     .center {
+         margin: auto;
+         width: 50%;
+         border: 3px solid green;
+         padding: 10px;
+    }
+     .chat-person,.rec-chat-person{
+        display: none
+    }
+     .submit2{
+         display: block;
+         margin: 0 auto;
+         float: inherit;
+    }
+     .footer-logo{
+        display: block;
+         margin: 0 auto !important;
+    }
+}
+
